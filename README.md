@@ -8,7 +8,7 @@ Demonstrate <B>asyncio</B> experience, scrape websites, store and process data
 Build an asynchronous web scraper using Python's asyncio library. This project will allow you to fetch data from multiple websites simultaneously, improving performance and reducing the overall time required for scraping.
 
 ## Keywords:
-asyncio, asynchronous, Python3, scraping, ETL
+asyncio, asynchronous, Python3, scraping, ETL, Flask
 
 ## Features:
 
@@ -35,3 +35,7 @@ asyncio, asynchronous, Python3, scraping, ETL
 
 ## Benefits: 
 By building this project, you'll demonstrate your ability to work with asynchronous programming using asyncio, handle network requests efficiently, parse HTML content, and manage errors effectively. Additionally, it will showcase your understanding of best practices in web scraping and data storage.
+
+# Progress
+
+* async backend - Flesh out async portions
