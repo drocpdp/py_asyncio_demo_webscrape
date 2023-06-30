@@ -40,9 +40,12 @@ By building this project, you'll demonstrate your ability to work with asynchron
 
 ## Completed
 
-* TBD
+* Install Flask, Bootstrap
+* Initial url input page (Flask)
+* Submit form to python async methods (backend)
 
 ## To Do
 
-* async backend - Flesh out async portions
-* install Flask, Bootstrap, flesh out general structure
+* Validate urls entered
+* Generate Preview of urls entered
+* Async waiting screen upon submit
