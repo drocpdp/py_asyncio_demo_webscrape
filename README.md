@@ -38,4 +38,11 @@ By building this project, you'll demonstrate your ability to work with asynchron
 
 # Progress
 
+## Completed
+
+* TBD
+
+## To Do
+
 * async backend - Flesh out async portions
+* install Flask, Bootstrap, flesh out general structure

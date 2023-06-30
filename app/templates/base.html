@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asyncio Webscrape</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    </head>
+
+    <h1>Asyncio Webscrape</h1>
+    <button 
+        type="button" 
+        class="btn btn-primary" 
+        onclick="document.getElementById('url_inputs').submit();"
+    >
+    Scrape Results
+    </button>
+
+    <hr>
+
+    <body>
+        <div class="input-rows">
+            <form id="url_inputs" action="/scrape" method="POST">
+                {% for i in range(5) %}
+                    {% set keyId = i %}
+                    {% include "inputRow.html" %}
+                {% endfor %}
+            </form>
+        </div>
+    </body>
+</html>

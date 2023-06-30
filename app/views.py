@@ -1,10 +1,15 @@
 from app import app
 from flask import render_template
+from app.scrape_sites import ScrapeSites
+
 
 @app.route("/")
-def hello_world():
-    return render_template('index.html')
+def landing_page():
+    return render_template('base.html')
 
-@app.route("/test")
-def test_world():
-    return "<p>Hello, World! TEST</p>"
+
+@app.route('/scrape', methods=['POST'])
+def scrape():
+    print('ok')
+    ScrapeSites().main()
+    return 'ok'
