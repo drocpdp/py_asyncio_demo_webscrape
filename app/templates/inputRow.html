@@ -3,10 +3,10 @@
         <div class="col">
             <div class="input-group">
                 <span class="input-group-text">
-                    Label {{ keyId }}
+                    Label _{{ keyId }}
                 </span>
                 <input 
-                    id="label"
+                    id="label_{{ keyId }}"
                     key="{{ keyId }}"
                     type="text" 
                     placeholder="Enter a label" 
@@ -20,7 +20,7 @@
                     URL
                 </span>
                 <input 
-                    id="url"
+                    name="url_{{ keyId }}"
                     key="{{ keyId }}"
                     type="url" 
                     placeholder="Enter a URL to scrape" 

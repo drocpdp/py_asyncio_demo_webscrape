@@ -4,7 +4,12 @@ import time, random
 
 
 class ScrapeSites:
-    websites = ['http://davidreynon.com', 'https://cnn.com']
+
+    def __init__(self, websites=None):
+        if websites is None:
+            self.websites = ['http://davidreynon.com', 'https://cnn.com']
+        else:
+            self.websites = websites
 
     """
     -await for each website

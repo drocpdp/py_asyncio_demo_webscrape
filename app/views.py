@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template
+from flask import render_template, request
 from app.scrape_sites import ScrapeSites
 
 
@@ -10,6 +10,9 @@ def landing_page():
 
 @app.route('/scrape', methods=['POST'])
 def scrape():
-    print('ok')
-    ScrapeSites().main()
+    urls = []
+    for _, val in request.form.items():
+        urls.append(val)
+    scrape = ScrapeSites(urls)
+    scrape.main()
     return 'ok'
