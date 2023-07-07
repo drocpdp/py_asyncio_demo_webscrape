@@ -1,3 +1,4 @@
+
 # py_asyncio_demo_webscrape
 Demonstrate <B>asyncio</B> experience, scrape websites, store and process data
 
@@ -43,9 +44,9 @@ By building this project, you'll demonstrate your ability to work with asynchron
 * Install Flask, Bootstrap
 * Initial url input page (Flask)
 * Submit form to python async methods (backend)
+* Generate Preview or urls entered
 
 ## To Do
 
 * Validate urls entered
-* Generate Preview of urls entered
 * Async waiting screen upon submit
