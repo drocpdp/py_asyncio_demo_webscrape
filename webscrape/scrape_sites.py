@@ -10,6 +10,7 @@ class ScrapeSites:
             self.websites = ['http://davidreynon.com', 'https://cnn.com']
         else:
             self.websites = websites
+            print(self.websites)
 
     """
     -await for each website

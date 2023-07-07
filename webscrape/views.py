@@ -10,6 +10,8 @@ def landing_page():
 
 @main_bp.route('/scrape', methods=['POST'])
 def scrape():
+    print('scrape()')
+    print(request.form.items())
     urls = []
     for _, val in request.form.items():
         urls.append(val)
